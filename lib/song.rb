@@ -43,6 +43,6 @@ class Song
       genre_count.include? genre
       genre_count[genre]
     end
-    genre_count[genre]
+    genre_count
   end
 end
